@@ -10,7 +10,9 @@
 
 # Tree Shaking
 
+# Inversion of control (IOC)
 
+# What is dependency injection
 
 # Angular Bootstrap process / What is angular bootstrapping
 
