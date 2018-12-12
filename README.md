@@ -7,4 +7,4 @@
 
 ## Angular JS (1.x)
 
-## Angular (2-6)
+## Angular (2+ Upto 6)
