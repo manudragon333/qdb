@@ -1,6 +1,6 @@
 # Topics to cover
 ## JavaScript
-- Core JavaScript Questions
+- Core JavaScript
 - Object Oriented JavaScript
 - ES6
 - JavaScript Tricky Questions
