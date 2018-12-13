@@ -39,7 +39,9 @@ Tree shaking is a term commonly used in the JavaScript context for dead-code eli
 # Angular Bootstrap process / What is angular bootstrapping
 
 # What is a module
-A module is basically a container to group components, services, directives etc.
+A module is basically a container to group components, services, directives etc that are related.
+
+An NgModule is a class marked by the @NgModule decorator. @NgModule takes a metadata object that describes how to compile a component's template and how to create an injector at runtime.
 
 # JavaScript Modules vs. NgModules
 
