@@ -16,6 +16,12 @@ function catName(name) {
 }
 THIS WORKS 
 ```
+JavaScript only hoists declarations, not initializations. If a variable is declared and initialized after using it, the value will be undefined.
+```
+console.log(num); // Returns undefined 
+var num;
+num = 6;
+```
 https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 
