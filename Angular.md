@@ -11,24 +11,43 @@
 # Why Angular 
 
 # Main features of Angular
+SPA
+Dependency Injection 
+Dynamic Loading
+Templating
+Directives
+Dynamic Component Loading
+Lazy Loading
+
+# What is dependency injection
+DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
+Dependencies are services or objects that a class needs to perform its function. 
+In Angular, the DI framework provides declared dependencies to a class when that class is instantiated.
+The DI framework lets you supply data to a component from an injectable service class, defined in its own file.
+The @Injectable() decorator marks it as a service that can be injected && Angular dependency injector is responsible for creating service instances and injecting them into classes.
+
+# Inversion of control (IOC)
 
 # Lazy Loading
 
 # Tree Shaking
+Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. It removes any unused code i.e which are not imported while building.
 
-# Inversion of control (IOC)
 
-# What is dependency injection
+
 
 # Angular Bootstrap process / What is angular bootstrapping
 
 # What is a module
 
+# JavaScript Modules vs. NgModules
+
+# Module Syntax / Options / Create Custom module
+
+
 # What is a component
 
-# Module Syntax / Options
-
-# Create Custom module
+# Dynamic Component Loading
 
 # Component Syntax / Options
 
@@ -36,13 +55,15 @@
 
 # Dynamic Component Loader
 
+
+
 # Type of directives / structural & attribute directives diff & syntax
 
 # Directive Definition & Create Custom Directive
 
 # Pipe Definition & Create Custom pipe
 
-# Events in Angular
+# Events in Angular / EventEmitter
 
 
 
@@ -61,6 +82,11 @@
 # Form Validation
 
 # Routing Syntax / Setup
+* menu.html
+```
+<button routerLink="/heroes">Heros</button>
+<button routerLink="/detail/4">Hreo 4 Details</button>
+```
 
 * app-routing.module.ts
 ~~~~
@@ -118,7 +144,6 @@ getHero(): void {
 # Template-driven forms
 
 # Dynamic Forms
-
 
 
 
