@@ -39,6 +39,7 @@ Tree shaking is a term commonly used in the JavaScript context for dead-code eli
 # Angular Bootstrap process / What is angular bootstrapping
 
 # What is a module
+A module is basically a container to group components, services, directives etc.
 
 # JavaScript Modules vs. NgModules
 
