@@ -1,6 +1,12 @@
 # Differences between Angular JS 1 and Angular 2
 
+- Angular JS uses Javasript, Angular2 Uses Typescript.
+- Angular 1 is controller based, Angular 2 is component based.
+- 
+
 # Differences between Angular 2, 4 and 6 
+
+2.0 to 4.0 has reduced it’s bundled file size by 60%.
 
 # Why Angular 
 
@@ -56,7 +62,39 @@
 
 # Routing Syntax / Setup
 
+* app-routing.module.ts
+
+import { NgModule }             from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'heroes', component: HeroesComponent },
+  { path: 'detail/:id', component: HeroDetailComponent },
+];
+@NgModule({
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
+})
+export class AppRoutingModule {}
+
+
+* app.module.ts
+
+import { AppRoutingModule }     from './app-routing.module';
+
+@NgModule({
+  imports: [
+  ...
+  AppRoutingModule
+  ]
+})
+
 # Parameterised Route
+
+
+import { ActivatedRoute } from '@angular/router';
 
 # What is Child Routing
 
