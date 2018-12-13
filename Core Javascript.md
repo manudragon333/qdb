@@ -16,6 +16,9 @@ function catName(name) {
 }
 THIS WORKS 
 ```
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
+
 # Differences between function .call .apply .bind
 
 # 
