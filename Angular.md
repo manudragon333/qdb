@@ -65,6 +65,19 @@ Tree shaking is a term commonly used in the JavaScript context for dead-code eli
 
 # Events in Angular / EventEmitter
 
+# InBuild Directives in Angular
+```
+*ngFor
+*ngIf
+<div [ngSwitch]="conditionExpression">
+<ng-template [ngSwitchCase]="case1Exp">...</ng-template>
+<ng-template ngSwitchCase="case2LiteralString">...</ng-template>
+<ng-template ngSwitchDefault>...</ng-template>
+</div>
+<div [ngClass]="{'active': isActive, 'disabled': isDisabled}">
+<div [ngStyle]="{'property': 'value'}">
+
+```
 
 
 # How to / Ways to share data between sibling components, child to parent, parent to child component.
