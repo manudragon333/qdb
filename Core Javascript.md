@@ -1,4 +1,21 @@
 # Define Closure
+A closure is the combination of a function and the lexical environment within which that function was declared.  This environment consists of any local variables that were in-scope at the time the closure was created.
+OR
+
+
+```
+function makeFunc() {
+  var name = 'Mozilla';
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
+
+var myFunc = makeFunc();
+myFunc();
+```
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 # Define Mutable - immutable 
 
