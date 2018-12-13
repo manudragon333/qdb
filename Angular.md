@@ -63,7 +63,7 @@
 # Routing Syntax / Setup
 
 * app-routing.module.ts
-
+~~~~
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -79,9 +79,9 @@ const routes: Routes = [
 })
 export class AppRoutingModule {}
 
-
+~~~~
 * app.module.ts 
-
+~~~~
 import { AppRoutingModule }     from './app-routing.module';
 
 @NgModule({
@@ -90,11 +90,24 @@ import { AppRoutingModule }     from './app-routing.module';
   AppRoutingModule
   ]
 })
-
+~~~~
 # Parameterised Route
 
-
+* hero-detail.component.ts
+~~~~
 import { ActivatedRoute } from '@angular/router';
+
+constructor(
+    private route: ActivatedRoute,
+)
+
+getHero(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.heroService.getHero(id)
+      .subscribe(hero => this.hero = hero);
+  }
+~~~~
+
 
 # What is Child Routing
 
