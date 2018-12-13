@@ -123,3 +123,9 @@ getHero(): void {
 
 
 
+# RxJS
+# Define an observable
+
+# 
+
+
