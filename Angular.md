@@ -80,7 +80,7 @@ const routes: Routes = [
 export class AppRoutingModule {}
 
 
-* app.module.ts
+* app.module.ts 
 
 import { AppRoutingModule }     from './app-routing.module';
 
