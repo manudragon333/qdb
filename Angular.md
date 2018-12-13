@@ -43,6 +43,18 @@ A module is basically a container to group components, services, directives etc 
 
 An NgModule is a class marked by the @NgModule decorator. @NgModule takes a metadata object that describes how to compile a component's template and how to create an injector at runtime.
 
+The bootstrap property is where we define the root component of our module. 
+```
+import { NgModule } from '@angular/core';
+
+@NgModule({
+  imports: [ ... ],
+  declarations: [ ... ],
+  providers: [ ... ],
+  bootstrap: [ ... ]
+})
+export class AppModule { }
+```
 # JavaScript Modules vs. NgModules
 
 # Module Syntax / Options / Create Custom module
