@@ -33,8 +33,12 @@ The @Injectable() decorator marks it as a service that can be injected && Angula
 # Tree Shaking
 Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. It removes any unused code i.e which are not imported while building.
 
+# One-way bind in Angular
+One-way data binding is achieved using the double curly braces {{}} or square braces [] or *.
 
-
+# Two-Way binding
+In two-way data binding both the class variables and the template keep each other up to date. This is achieved by using [()].
+```<input [(ngModel)]="msg" />```
 
 # Angular Bootstrap process / What is angular bootstrapping
 
@@ -61,6 +65,33 @@ export class AppModule { }
 
 
 # What is a component
+A component controls a part of screen called a view. Components are defined to control the template/view and reuse it across the applicaiton.
+* template takes precedence if both templateUrl and template are defined. 
+* template/templateUrl is mandatory for defining component.
+
+```
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector:    'app-hero-list',
+  templateUrl: './hero-list.component.html',
+  providers:  [ HeroService ]
+})
+
+export class HeroListComponent implements OnInit {
+  heroes: Hero[];
+  selectedHero: Hero;
+
+  constructor(private service: HeroService) { }
+
+  ngOnInit() {
+    this.heroes = this.service.getHeroes();
+  }
+
+  selectHero(hero: Hero) { this.selectedHero = hero; }
+}
+```
+
 
 # Dynamic Component Loading
 
@@ -77,6 +108,19 @@ export class AppModule { }
 # Directive Definition & Create Custom Directive
 
 # Pipe Definition & Create Custom pipe
+Angular pipes used for display-value transformations in our template HTML.
+```
+<!-- Default format: output 'Jun 15, 2015'-->
+ <p>Today is {{today | date}}</p>
+ 
+<!-- fullDate format: output 'Monday, June 15, 2015'-->
+<p>The date is {{today | date:'fullDate'}}</p>
+
+ <!-- shortTime format: output '9:43 AM'-->
+ <p>The time is {{today | date:'shortTime'}}</p>
+ 
+ 
+```
 
 # Events in Angular / EventEmitter
 
