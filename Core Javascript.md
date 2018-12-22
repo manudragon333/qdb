@@ -44,4 +44,10 @@ https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 # Differences between function .call .apply .bind
 
-# 
+# Ajax States
+
+# Array functions - map, reduce, filter etc....
+
+# Exception Handling (try, catch, finally, throw)
+
+# Dom operations dynamically.
