@@ -6,3 +6,7 @@ Arrow functions don't have their own this or arguments binding.  Instead, those 
 https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
 
 # Difference between for in and for of loop 
+
+
+# Callbacks and Promises
+
