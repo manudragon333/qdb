@@ -1,3 +1,5 @@
+# Advantages and disadvantages of SPA
+
 # Differences between Angular JS 1 and Angular 2
 
 - Angular JS uses Javasript, Angular2 Uses Typescript.
