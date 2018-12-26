@@ -36,6 +36,10 @@ Lazy Loading
 
 # How to minify Angular app
 
+# How to change ng- prefix to your custom name
+
+# How to manage dev dependencies
+
 # What is dependency injection
 DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
 Dependencies are services or objects that a class needs to perform its function. 
