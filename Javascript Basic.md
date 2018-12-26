@@ -89,11 +89,40 @@ https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 
 # Differences between function .call .apply .bind
+with _call()_ you pass arguments individually and _apply()_ as an argument array.
 
+The bind() method creates a new function that, when called, has its “this” keyword set to the provided value
+```
+var module = {
+  x: 42,
+  getX: function() {
+    return this.x;
+  }
+}
+
+var unboundGetX = module.getX;
+console.log(unboundGetX()); // The function gets invoked at the global scope
+// expected output: undefined
+
+var boundGetX = unboundGetX.bind(module);
+console.log(boundGetX());
+// expected output: 42
+
+```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
 
 # Ajax States
+```
+0	The request is not initialized
+1	The request has been set up
+2	The request has been sent
+3	The request is in process
+4	The request is complete
+```
 
 # Array functions - map, reduce, filter etc....
+
 
 # Exception Handling (try, catch, finally, throw)
 
