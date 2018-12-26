@@ -20,4 +20,6 @@
 
 # Ways to communicate between components - Parent to Child, Child to Parent, Sibilings.
 
-# 
+# How to change ng- prefix to your custom name
+
+# How to manage dev dependencies
