@@ -10,6 +10,15 @@
 
 2.0 to 4.0 has reduced it’s bundled file size by 60%.
 
+# Advantages and dis-advantages of Angular
+
+# How to secure Angular application
+
+# Template reference variables
+
+# How to use AWT tokens
+- Using interceptors
+
 # Why Angular 
 
 # Main features of Angular
@@ -20,6 +29,12 @@ Templating
 Directives
 Dynamic Component Loading
 Lazy Loading
+
+# New features of Angular 6 & 7 and what are there advantages
+
+# How do you improve performance of Angular app
+
+# How to minify Angular app
 
 # What is dependency injection
 DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
@@ -272,6 +287,14 @@ getHero(): void {
 # RxJS
 # Define an observable
 
-# 
+# Can i use map operator outside pipe in ng 6?
+
+# How to handle error using observables or in service call?
+
+# How to get observables result after execution of all?
+
+# What's Async and Await
+
+
 
 
