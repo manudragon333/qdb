@@ -20,9 +20,9 @@
 
 # How's TS compiled to JS
 
-# what are the production build files. How to do production build
+# What are the production build files. How to do production build.
 
-# can i use component in view without registering it in module
+# Can i use component in view without registering it in module
 
 # How to secure Angular application
 
