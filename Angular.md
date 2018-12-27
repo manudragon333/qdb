@@ -12,6 +12,18 @@
 
 # Advantages and dis-advantages of Angular
 
+# why do you use typescript in Angular development
+
+# Whats is difference b/w TS and JS
+
+# Will TS execute in browser
+
+# How's TS compiled to JS
+
+# what are the production build files. How to do production build
+
+# can i use component in view without registering it in module
+
 # How to secure Angular application
 
 # Template reference variables
