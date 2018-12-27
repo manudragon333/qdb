@@ -10,6 +10,18 @@
 
 2.0 to 4.0 has reduced it’s bundled file size by 60%.
 
+# why do you use typescript in Angular development
+
+# Whats is difference b/w TS and JS
+
+# Will TS execute in browser
+
+# How's TS compiled to JS
+
+# what are the production build files
+
+# can i use component in view without registering it in module
+
 # Advantages and dis-advantages of Angular
 
 # How to secure Angular application
