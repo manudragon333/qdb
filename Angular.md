@@ -21,6 +21,18 @@ Directives
 Dynamic Component Loading
 Lazy Loading
 
+# why do you use typescript in Angular development
+
+# Whats is difference b/w TS and JS
+
+# Will TS execute in browser
+
+# How's TS compiled to JS
+
+# what are the production build files
+
+# can i use component in view without registering it in module
+
 # What is dependency injection
 DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
 Dependencies are services or objects that a class needs to perform its function. 
