@@ -132,6 +132,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Differences between normal function and arrow function.
 
+# What is strict mode in JavaScript?
+
 # 
 
 
