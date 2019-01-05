@@ -6,3 +6,8 @@
 
 # Validations in HTML 5
 
+# Cookies and Localstorage differences. What are storage limits, Which one is secure?
+
+# When will you use cookies and when localstorage.
+
+# 
