@@ -127,3 +127,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 # Exception Handling (try, catch, finally, throw)
 
 # Dom operations dynamically.
+
+# Differences between for..in and for..of
+
+# Differences between normal function and arrow function.
+
+# 
+
+
