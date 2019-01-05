@@ -77,7 +77,7 @@ catName("Chloe");
 function catName(name) {
   console.log("My cat's name is " + name);
 }
-THIS WORKS 
+// THIS WORKS 
 ```
 JavaScript only hoists declarations, not initializations. If a variable is declared and initialized after using it, the value will be undefined.
 ```
@@ -123,6 +123,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Array functions - map, reduce, filter etc....
 
+# Object functions - 
 
 # Exception Handling (try, catch, finally, throw)
 
@@ -130,19 +131,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Differences between foreach, for..in and for..of
 
+# List new ES6 Features?
+
 # Differences between normal function and arrow function.
 
 # What is strict mode in JavaScript?
 
-# List new ES6 Features?
-
 # What is this in JavaScript
 
-# Array functions
-
-# Object functions
-
 # 
-
 
 
