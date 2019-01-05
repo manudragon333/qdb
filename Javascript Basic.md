@@ -128,12 +128,21 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Dom operations dynamically.
 
-# Differences between for..in and for..of
+# Differences between foreach, for..in and for..of
 
 # Differences between normal function and arrow function.
 
 # What is strict mode in JavaScript?
 
+# List new ES6 Features?
+
+# What is this in JavaScript
+
+# Array functions
+
+# Object functions
+
 # 
+
 
 
