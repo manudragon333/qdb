@@ -6,4 +6,6 @@
 
 # Media queries for Mobile Table and Desktop resolutions
 
+# Bootstrap - Make image responsive.
+
 # 
