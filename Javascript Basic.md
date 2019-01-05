@@ -131,14 +131,32 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Differences between foreach, for..in and for..of
 
-# List new ES6 Features?
-
 # Differences between normal function and arrow function.
 
 # What is strict mode in JavaScript?
 
 # What is this in JavaScript
 
-# 
+# Loop a Object using Javascript
+```
+var obj = { first: "John", last: "Doe" };
+
+Object.keys(obj).forEach(function(key) {
+    console.log(key, obj[key]);
+});
+
+// OR ES 6 WAY:
+for (const key of Object.keys(obj)) {
+    console.log(key, obj[key]);
+}
+
+// OR ES 5 WAY:
+for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+        //Do your logic with the property here
+    }
+}
+
+```
 
 
