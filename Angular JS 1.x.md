@@ -1,6 +1,20 @@
+# What is angular bootstrapping? Explain process.
+
+# Define dependency injection.
+
+# Explain angular digest cycle.
+
+# When does digest cycle trigger in angular. How to manually trigger a digest cycle?
+
+# 
+
+# $watch() , $digest() and $apply()
+
+# Differences in setTimeout and $timeout
+
 # Services vs Factories vs Providers
 
-# What is isolated scope
+# What is isolated scope ? 
 
 # Define custom directives
 
