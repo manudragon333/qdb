@@ -8,3 +8,12 @@
 ## Angular JS (1.x)
 
 ## Angular (2+ Upto 6)
+
+## Mobile first approach
+
+## Test Driven Development
+
+## Behavior-Driven Development
+
+## TDD vs BDD
+https://blog.testlodge.com/tdd-vs-bdd/
