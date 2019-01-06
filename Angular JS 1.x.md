@@ -44,6 +44,11 @@ This process is called auto-bootstrapping.
 https://stackoverflow.com/questions/21058213/what-is-meant-by-bootstrapping-in-angular-js
 
 # Define dependency injection.
+* DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself. 
+* Dependencies are services or objects that a class needs to perform its function. 
+* In Angular, the DI framework provides declared dependencies to a class when that class is instantiated. 
+* The DI framework lets you supply data to a component from an injectable service class, defined in its own(service) file. 
+* The @Injectable() decorator marks a service that can be injected && Angular dependency injector is responsible for creating service instances and injecting them into classes.
 
 # What is Two-Way binding in Angular JS
 Two-way Data binding in AngularJS is maintianing the synchronization between the model and the view.
@@ -53,8 +58,6 @@ When data in the model changes, the view reflects the change, and when data in t
 # Explain angular digest cycle.
 
 # When does digest cycle trigger in angular. How to manually trigger a digest cycle?
-
-# 
 
 # $watch() , $digest() and $apply()
 
@@ -72,6 +75,11 @@ $timeout takes care of the digest cycle. Any changes in setTimeout will need to 
 # Config vs Run
 
 # Routing - Full Syntax
+
+
+
+
+
 
 # State Provider
 
