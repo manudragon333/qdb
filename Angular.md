@@ -12,7 +12,7 @@
 
 # Advantages and dis-advantages of Angular
 
-# why do you use typescript in Angular development
+# Why do you use typescript in Angular development
 
 # Whats is difference b/w TS and JS
 
@@ -271,11 +271,6 @@ Angular pipes used for display-value transformations in our template HTML.
 
 # How can i replace a component with other component in view when a event triggers.
 
-# Differences between promise and observable
-
-# Promise definition & Example
-
-# Observable definition & Example
 
 # Routing Syntax / Setup
 * menu.html
@@ -351,7 +346,11 @@ getHero(): void {
 
 # RxJS
 
-# Define an observable
+# Differences between promise and observable
+
+# Promise definition & Example
+
+# Define an observable / Observable definition & Example
 
 # Can i use map operator outside pipe in ng 6?
 
