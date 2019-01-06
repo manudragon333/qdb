@@ -224,26 +224,10 @@ Cleanup just before Angular destroys the directive/component.
 
 
 
+
 # Type of directives / structural & attribute directives diff & syntax
 
 # Directive Definition & Create Custom Directive
-
-# Pipe Definition & Create Custom pipe
-Angular pipes used for display-value transformations in our template HTML.
-```
-<!-- Default format: output 'Jun 15, 2015'-->
- <p>Today is {{today | date}}</p>
- 
-<!-- fullDate format: output 'Monday, June 15, 2015'-->
-<p>The date is {{today | date:'fullDate'}}</p>
-
- <!-- shortTime format: output '9:43 AM'-->
- <p>The time is {{today | date:'shortTime'}}</p>
- 
- 
-```
-
-# Events in Angular / EventEmitter
 
 # InBuild Directives in Angular
 ```
@@ -260,6 +244,27 @@ Angular pipes used for display-value transformations in our template HTML.
 ```
 
 
+
+# Pipe Definition & Create Custom pipe
+Angular pipes used for display-value transformations in our template HTML.
+```
+<!-- Default format: output 'Jun 15, 2015'-->
+ <p>Today is {{today | date}}</p>
+ 
+<!-- fullDate format: output 'Monday, June 15, 2015'-->
+<p>The date is {{today | date:'fullDate'}}</p>
+
+ <!-- shortTime format: output '9:43 AM'-->
+ <p>The time is {{today | date:'shortTime'}}</p>
+ 
+ 
+```
+
+
+# Events in Angular / EventEmitter
+
+
+
 # How to / Ways to share data between sibling components, child to parent, parent to child component.
 
 # Can i use component without registering in module.
@@ -271,8 +276,6 @@ Angular pipes used for display-value transformations in our template HTML.
 # Promise definition & Example
 
 # Observable definition & Example
-
-# Form Validation
 
 # Routing Syntax / Setup
 * menu.html
@@ -332,16 +335,22 @@ getHero(): void {
 
 # How to do a http request, Syntax
 
+
+
+
+
 # Reactive Forms
 
 # Template-driven forms
 
 # Dynamic Forms
 
+# Form Validation
 
 
 
 # RxJS
+
 # Define an observable
 
 # Can i use map operator outside pipe in ng 6?
