@@ -95,6 +95,8 @@ $timeout takes care of the digest cycle. Any changes in setTimeout will need to 
 # In-Built directives
 
 # Config vs Run
+* Config is executed in configurstions phase of angular. Only Constants and Providers are available for injection.
+* Run is executed after angular initializations is done and All Services, Constants, Values and Providers are available for injection.
 
 # Routing - Full Syntax
 
@@ -110,6 +112,9 @@ $timeout takes care of the digest cycle. Any changes in setTimeout will need to 
 # $rootScope
 
 # Difference between emit and broadcast
+* Emits sends the event up-wards towards parent scopes. 
+* Broadcast send event in-wards towards the chile scopes.
+* Use $rootScope.$broadcast('..EventName..') for firing the $on event listeners for all the controller (Sibling, Child, Parent etc.)
 
 # Ways to communicate between components - Parent to Child, Child to Parent, Sibilings.
 
