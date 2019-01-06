@@ -27,6 +27,18 @@
 # How to secure Angular application
 
 # Template reference variables
+* A template reference variable is often a reference to a DOM element within a template. It can also be a reference to an Angular component or directive or a web component.
+* Use the hash symbol (#) to declare a reference variable.
+```
+<input #phone placeholder="phone number">
+
+<!-- lots of other elements -->
+
+<!-- phone refers to the input element; pass its `value` to an event handler -->
+<button (click)="callPhone(phone.value)">Call</button>
+```
+
+https://angular.io/guide/template-syntax#ref-vars
 
 # How to use AWT tokens
 - Using interceptors
