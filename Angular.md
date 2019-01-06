@@ -99,6 +99,8 @@ In Angular there are typically 3 ways of bootstrapping the application :
 * Manual Bootstrapping
 * Angular Elements ( >=v6 )
 
+******* COMPLETE FROM REFERENCE LINK *********
+
 https://medium.com/learnwithrahul/ways-of-bootstrapping-angular-applications-d379f594f604
 
 # What is a module
@@ -112,6 +114,7 @@ import { NgModule } from '@angular/core';
 
 @NgModule({
   imports: [ ... ],
+  exports: [ ... ],
   declarations: [ ... ],
   providers: [ ... ],
   bootstrap: [ ... ]
