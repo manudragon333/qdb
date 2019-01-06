@@ -123,7 +123,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # Array functions - map, reduce, filter etc....
 
+https://www.w3schools.com/jsref/jsref_obj_array.asp
+
 # Object functions - 
+
 
 # Exception Handling (try, catch, finally, throw)
 
