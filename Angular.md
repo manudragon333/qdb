@@ -53,11 +53,11 @@ Lazy Loading
 # How to manage dev dependencies
 
 # What is dependency injection
-DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
-Dependencies are services or objects that a class needs to perform its function. 
-In Angular, the DI framework provides declared dependencies to a class when that class is instantiated.
-The DI framework lets you supply data to a component from an injectable service class, defined in its own file.
-The @Injectable() decorator marks it as a service that can be injected && Angular dependency injector is responsible for creating service instances and injecting them into classes.
+* DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself. 
+* Dependencies are services or objects that a class needs to perform its function. 
+* In Angular, the DI framework provides declared dependencies to a class when that class is instantiated. 
+* The DI framework lets you supply data to a component from an injectable service class, defined in its own(service) file. 
+* The @Injectable() decorator marks a service that can be injected && Angular dependency injector is responsible for creating service instances and injecting them into classes.
 
 # Inversion of control (IOC)
 
@@ -73,7 +73,33 @@ One-way data binding is achieved using the double curly braces {{}} or square br
 In two-way data binding both the class variables and the template keep each other up to date. This is achieved by using [()].
 ```<input [(ngModel)]="msg" />```
 
-# Angular Bootstrap process / What is angular bootstrapping
+# What is angular bootstrapping? Explain process.
+@NgModule.bootstrap property identifies the AppComponent(provided in @NgModule.bootstrap) as the bootstrap component. When Angular launches the app, it places the HTML rendering of AppComponent in the DOM i.e inside the AppComponent selector element in index.html.
+
+__Bootstrapping in main.ts__
+
+You launch the application by bootstrapping the AppModule in the main.ts file.
+
+Angular offers a variety of bootstrapping options targeting multiple platforms. This page describes two options, both targeting the browser.
+```
+import { NgModule }      from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent }  from './app.component';
+
+@NgModule({
+  imports:      [ BrowserModule ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
+})
+export class AppModule { }
+```
+# Different ways of bootstrapping Angular Application.?
+In Angular there are typically 3 ways of bootstrapping the application :
+* Default or Automatic Bootstrapping
+* Manual Bootstrapping
+* Angular Elements ( >=v6 )
+
+https://medium.com/learnwithrahul/ways-of-bootstrapping-angular-applications-d379f594f604
 
 # What is a module
 A module is basically a container to group components, services, directives etc that are related.
