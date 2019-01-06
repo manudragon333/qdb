@@ -57,9 +57,31 @@ When data in the model changes, the view reflects the change, and when data in t
 
 # Explain angular digest cycle.
 
-# When does digest cycle trigger in angular. How to manually trigger a digest cycle?
+https://www.sitepoint.com/understanding-angulars-apply-digest/
+https://stackoverflow.com/questions/35826219/angular-scope-digest-vs-scope-apply#answer-35826935
+https://www.youtube.com/watch?v=SYuc1oSjhgY
 
-# $watch() , $digest() and $apply()
+# When does digest cycle trigger in angular. How to manually trigger a digest cycle?
+Basically AngularJS binds event handlers to any element that interacts with Angular ($scope, directive, ...), every time the event fires, $apply is called which internally calls $digest which will trigger the re-evaluation of all the $watches.
+
+AngularJS made a smart assumption that model changes happen only on user interaction / events:
+
+* DOM events
+* XHR responses firing callbacks
+* Browser's location changes
+* Timers (setTimout, setInterval) firing the callbacks
+* Or trigger on certain events
+
+Input directives+ngModel, ngClick, ngMouseOver etc.
+* $http and $resource
+* $location
+* $timeout
+
+# $watch(), $digest() and $apply()
+https://www.sitepoint.com/understanding-angulars-apply-digest/
+https://stackoverflow.com/questions/35826219/angular-scope-digest-vs-scope-apply#answer-35826935
+https://www.youtube.com/watch?v=SYuc1oSjhgY
+
 
 # Differences in setTimeout and $timeout
 $timeout takes care of the digest cycle. Any changes in setTimeout will need to run the digest cycle manually to reflect in the applciation (Using _$scope.$apply()_ ).
