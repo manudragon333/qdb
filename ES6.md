@@ -1,5 +1,5 @@
 
-# ES 6 Features List
+# List new features in ES 6
 https://webapplog.com/es6/
 
 # Differences between arrow and normal function 
