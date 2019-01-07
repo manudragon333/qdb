@@ -1,7 +1,23 @@
 # Advantages and disadvantages of SPA
 
-# Differences between Angular JS 1 and Angular 2
+# Advantages and dis-advantages of Angular
 
+# Why Angular 
+
+# Main features of Angular
+SPA
+Dependency Injection 
+Dynamic Loading
+Templating
+Directives
+Dynamic Component Loading
+Lazy Loading
+
+# New features of Angular 6 & 7 and what are there advantages
+
+# How do you improve performance of Angular app
+
+# Differences between Angular JS 1 and Angular 2
 - Angular JS uses Javasript, Angular2 Uses Typescript.
 - Angular 1 is controller based, Angular 2 is component based.
 - 
@@ -10,9 +26,7 @@
 
 2.0 to 4.0 has reduced it’s bundled file size by 60%.
 
-# Advantages and dis-advantages of Angular
-
-# Why do you use typescript in Angular development
+# Why do you use TypeScript in Angular development
 
 # Whats is difference b/w TS and JS
 
@@ -21,8 +35,11 @@
 # How's TS compiled to JS
 
 # What are the production build files. How to do production build.
+ng build --prod
+_Optional:_
+ng build --prod --build-optimizer // Total bundle sizes with Build Optimizer are smaller
 
-# Can i use component in view without registering it in module
+https://github.com/angular/angular-cli/wiki/build#bundling--tree-shaking
 
 # How to secure Angular application
 
@@ -40,29 +57,48 @@
 
 https://angular.io/guide/template-syntax#ref-vars
 
-# How to use AWT tokens
-- Using interceptors
-
-# Why Angular 
-
-# Main features of Angular
-SPA
-Dependency Injection 
-Dynamic Loading
-Templating
-Directives
-Dynamic Component Loading
-Lazy Loading
-
-# New features of Angular 6 & 7 and what are there advantages
-
-# How do you improve performance of Angular app
-
 # How to minify Angular app
+Use ``` ng build --prod --build-optimizer ```
+
+OR
+
+Compress using Brotli compression
+``` for i in dist/*; do brotli $i; done ```
+
+# How to setup production environment specific settings/variables for application.?
+Use _fileReplacements_ in projects.<project>.configurations.procution.fileReplacements section in angular.json
+ 
+```
+// Assuming we maintain "src/environments/environment.ts" && "src/environments/environment.prod.ts"
+"configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+```
+```
+// File: environment.prod.ts
+export const environment = {
+  production: true,
+  xyzSetting: true
+};
+```
 
 # How to change ng- prefix to your custom name
 
 # How to manage dev dependencies
+These packages are listed in the _devDependencies_ section of package.json
+
+To add a new devDependency, use either one of the following commands:
+
+```
+npm install --dev <package-name>
+// OR
+yarn add --dev <package-name>
+```
 
 # What is dependency injection
 * DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself. 
@@ -77,6 +113,11 @@ Lazy Loading
 
 # Tree Shaking
 Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. It removes any unused code i.e which are not imported while building.
+
+# How to use JWT tokens
+- Using interceptors
+
+http://jasonwatmore.com/post/2018/05/23/angular-6-jwt-authentication-example-tutorial#jwt-interceptor-ts
 
 # One-way bind in Angular
 One-way data binding is achieved using the double curly braces {{}} or square braces [] or *.
@@ -115,8 +156,8 @@ In Angular there are typically 3 ways of bootstrapping the application :
 
 https://medium.com/learnwithrahul/ways-of-bootstrapping-angular-applications-d379f594f604
 
-# What is a module
-A module is basically a container to group components, services, directives etc that are related.
+# What is a module / Module Syntax / Options / Create Custom module
+A module is basically a container to group related components, services, directives etc.
 
 An NgModule is a class marked by the @NgModule decorator. @NgModule takes a metadata object that describes how to compile a component's template and how to create an injector at runtime.
 
@@ -135,12 +176,11 @@ export class AppModule { }
 ```
 # JavaScript Modules vs. NgModules
 
-# Module Syntax / Options / Create Custom module
+https://angular.io/guide/ngmodule-vs-jsmodule
 
-
-# What is a component
+# What is a component / Component Syntax / Options
 A component controls a part of screen called a view. Components are defined to control the template/view and reuse it across the applicaiton.
-* template takes precedence if both templateUrl and template are defined. 
+* _template_ takes precedence if both _templateUrl_ and _template_ are defined. 
 * template/templateUrl is mandatory for defining component.
 
 ```
@@ -165,11 +205,6 @@ export class HeroListComponent implements OnInit {
   selectHero(hero: Hero) { this.selectedHero = hero; }
 }
 ```
-
-
-# Dynamic Component Loading
-
-# Component Syntax / Options
 
 # Component Life Cycle Hooks
 - ngOnChanges()	
@@ -223,13 +258,27 @@ Cleanup just before Angular destroys the directive/component.
 # Dynamic Component Loader
 
 
+# How to / Ways to share data between sibling components, child to parent, parent to child component.
 
 
-# Type of directives / structural & attribute directives diff & syntax
+# How can i replace a component with other component in view when a event triggers.
 
-# Directive Definition & Create Custom Directive
 
-# InBuild Directives in Angular
+
+# Can i use component in view without registering it in module
+Just import in the current component and Use it.
+
+
+
+
+
+
+
+# Type of directives / Structural & Attribute directives diff & syntax
+
+# Directive Definition / Syntax / Create Custom Directive
+
+# List InBuild Directives in Angular
 ```
 *ngFor
 *ngIf
@@ -245,7 +294,7 @@ Cleanup just before Angular destroys the directive/component.
 
 
 
-# Pipe Definition & Create Custom pipe
+# What are pipes in Angular
 Angular pipes used for display-value transformations in our template HTML.
 ```
 <!-- Default format: output 'Jun 15, 2015'-->
@@ -260,16 +309,16 @@ Angular pipes used for display-value transformations in our template HTML.
  
 ```
 
+# Pipe Definition / Syntax / Create Custom pipe
+
 
 # Events in Angular / EventEmitter
 
 
 
-# How to / Ways to share data between sibling components, child to parent, parent to child component.
 
-# Can i use component without registering in module.
 
-# How can i replace a component with other component in view when a event triggers.
+
 
 
 # Routing Syntax / Setup
