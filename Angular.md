@@ -176,6 +176,14 @@ export class AppModule { }
 ```
 # JavaScript Modules vs. NgModules
 
+The NgModule classes differ from JavaScript module in the following key ways:
+
+* An NgModule bounds declarable classes only. Declarables are the only classes that matter to the Angular compiler.
+* An NgModule can only export the declarable classes it owns or imports from other modules. It doesn't declare or export any other kind of class.
+* Instead of defining all member classes in one giant file as in a JavaScript module, you list the module's classes in the @NgModule.declarations list.
+* Unlike JavaScript modules, an NgModule can extend the entire application with services by adding providers to the @NgModule.providers list.
+
+
 https://angular.io/guide/ngmodule-vs-jsmodule
 
 # What is a component / Component Syntax / Options
