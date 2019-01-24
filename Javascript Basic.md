@@ -158,4 +158,9 @@ for (var prop in obj) {
 
 ```
 
+# Differences between cookie, localStorage, sesisonStorage
+* sessionStorage will persists untill the browser is closed/untill browser session and also is not shared across tabs. | localStorage is shared across tabs and persists untill cleared.
+* cookie can be made persistant.
+* cookies are sent in headers in every request | localStorage and sessionStorage are not sent.
+* 
 
