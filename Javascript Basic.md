@@ -160,7 +160,8 @@ for (var prop in obj) {
 
 # Differences between cookie, localStorage, sesisonStorage
 * sessionStorage will persists untill the browser is closed/untill browser session and also is not shared across tabs. | localStorage is shared across tabs and persists untill cleared.
-* cookie can be made persistant.
+* cookie are expired dependening on expiry time; can be made persistant by specifying expiry time and with expiry to long future date.
 * cookies are sent in headers in every request | localStorage and sessionStorage are not sent.
+* cookies limit 4KB | local/sessionStorage limit ~10MB Chrome; ~5MB for other browsers.
 * 
 
