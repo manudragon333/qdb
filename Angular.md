@@ -5,6 +5,7 @@
 # Why Angular 
 
 # Main features of Angular
+```
 SPA
 Dependency Injection 
 Dynamic Loading
@@ -12,7 +13,7 @@ Templating
 Directives
 Dynamic Component Loading
 Lazy Loading
-
+```
 # New features of Angular 6 & 7 and what are there advantages
 
 # How do you improve performance of Angular app
@@ -110,6 +111,18 @@ yarn add --dev <package-name>
 # Inversion of control (IOC)
 
 # Lazy Loading
+There are three main steps to setting up a lazy loaded feature module:
+
+* Create the feature module.
+* Create the feature module’s routing module.
+* Configure the routes.
+
+Create a feature module with routing
+```ng generate module customers --routing```
+Add Components under feature module
+```ng generate component customers/customer-list```
+
+
 
 # Tree Shaking
 Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. It removes any unused code i.e which are not imported while building.
@@ -269,6 +282,7 @@ Cleanup just before Angular destroys the directive/component.
 # How to / Ways to share data between sibling components, child to parent, parent to child component.
 
 
+
 # How can i replace a component with other component in view when a event triggers.
 
 
@@ -365,6 +379,11 @@ import { AppRoutingModule }     from './app-routing.module';
   ]
 })
 ~~~~
+* app.component.html
+```
+<router-outlet></router-outlet>
+```
+
 # Parameterised Route
 
 * hero-detail.component.ts
