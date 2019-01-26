@@ -1,3 +1,10 @@
+https://angular.io/guide/reactive-forms
+https://angular.io/guide/forms
+https://angular.io/guide/attribute-directives
+https://angular.io/guide/structural-directives
+https://angular.io/guide/pipes
+
+
 # Advantages and disadvantages of SPA
 
 # Advantages and dis-advantages of Angular
@@ -122,7 +129,66 @@ Create a feature module with routing
 Add Components under feature module
 ```ng generate component customers/customer-list```
 
+* app-routing.module.ts
+```
+content_copy
+const routes: Routes = [
+  {
+    path: 'customers',
+    loadChildren: './customers/customers.module#CustomersModule'
+  },
+  {
+    path: 'orders',
+    loadChildren: './orders/orders.module#OrdersModule'
+  },
+  {
+    path: '',
+    redirectTo: '',
+    pathMatch: 'full'
+  }
+];
+```
 
+* customers-routing.module.ts
+```
+customers-routing.module.ts
+content_copy
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { CustomerListComponent } from './customer-list/customer-list.component';
+
+
+const routes: Routes = [
+  {
+    path: '',
+    component: CustomerListComponent
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class CustomersRoutingModule { }
+```
+
+* customers.module.ts
+```
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { CustomersRoutingModule } from './customers-routing.module';
+import { CustomerListComponent } from './customer-list/customer-list.component';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    CustomersRoutingModule
+  ],
+  declarations: [CustomerListComponent]
+})
+export class CustomersModule { }
+```
 
 # Tree Shaking
 Tree shaking is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of ES2015 module syntax, i.e. import and export. It removes any unused code i.e which are not imported while building.
