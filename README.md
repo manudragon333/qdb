@@ -22,3 +22,6 @@ https://blog.testlodge.com/tdd-vs-bdd/
 ## Useful Links:
 https://www.geeksforgeeks.org/how-can-one-become-good-at-data-structures-and-algorithms-easily/
 
+https://www.geeksforgeeks.org/binary-search-in-javascript/
+
+
