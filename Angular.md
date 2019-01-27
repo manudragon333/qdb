@@ -25,9 +25,17 @@ Directives
 Dynamic Component Loading
 Lazy Loading
 ```
+
+# Why use TypeScript in Angular development
+
+# Whats is difference b/w TS and JS
+
+# Will TS execute in browser
+
+# How's TS compiled to JS
+
 # New features of Angular 6 & 7 and what are there advantages
 
-# How do you improve performance of Angular app
 
 # Differences between Angular JS 1 and Angular 2
 - Angular JS uses Javasript, Angular2 Uses Typescript.
@@ -38,13 +46,8 @@ Lazy Loading
 
 2.0 to 4.0 has reduced it’s bundled file size by 60%.
 
-# Why do you use TypeScript in Angular development
-
-# Whats is difference b/w TS and JS
-
-# Will TS execute in browser
-
-# How's TS compiled to JS
+# How do you improve performance of Angular app
+Use onPush change detection strategy.
 
 # What are the production build files. How to do production build.
 ng build --prod
