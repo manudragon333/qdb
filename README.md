@@ -25,3 +25,5 @@ https://www.geeksforgeeks.org/how-can-one-become-good-at-data-structures-and-alg
 https://www.geeksforgeeks.org/binary-search-in-javascript/
 
 https://learn.freecodecamp.org/
+
+https://www.youtube.com/watch?v=t2CEgPsws3U
