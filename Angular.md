@@ -8,6 +8,7 @@ https://angular.io/guide/structural-directives
 
 https://angular.io/guide/pipes
 
+https://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html
 
 # Advantages and disadvantages of SPA
 
