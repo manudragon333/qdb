@@ -1,13 +1,17 @@
 ECMA SCRIPT 9TH EDITION
 
-specifications:
+#Specifications:
+`
 Async Functions, 
 Shared Memory, and 
 Atomics
+`
 
 
-New static methods:
+#New static methods:
+
+`
 Object.values, 
 Object.entries 
 Object.getOwnPropertyDescriptors
-
+`
