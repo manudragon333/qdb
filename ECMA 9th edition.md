@@ -1,6 +1,6 @@
 ECMA SCRIPT 9TH EDITION
 
-#Specifications:
+# Specifications:
 `
 Async Functions, 
 Shared Memory, and 
