@@ -25,3 +25,7 @@ for (var i = 0; i < arr.length; i++) {
 }
 ```
 - Now prints 0, 10; 1, 12; ............
+
+https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703
+
+------
