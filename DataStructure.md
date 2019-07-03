@@ -31,3 +31,13 @@ in order to solve the above problems, data structures are used. Data is organize
 - Reusability: Data structures are reusable, i.e. once we have implemented a particular data structure, we can use it at any other place. Implementation of data structures can be compiled into libraries which can be used by different clients.
 
 - Abstraction: Data structure is specified by the ADT which provides a level of abstraction. The client program uses the data structure through interface only, without getting into the implementation details.
+
+# Algorithm
+An algorithm is a procedure(logic) having well defined steps for solving a particular problem. 
+
+# Categories of algorithm
+- insert
+- update 
+- sort
+- search
+- delete
