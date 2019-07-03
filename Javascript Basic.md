@@ -135,6 +135,16 @@ https://www.w3schools.com/jsref/jsref_obj_array.asp
 # What is strict mode in JavaScript?
 
 # What is this in JavaScript
+`this` is equal to the object the code is inside.
+
+By default it refers to window object if it is not called inside any object block.
+```
+let a={ name: 'L1', say: function(){ console.log('Hi, Am '+this.name ); } , l2: { name: 'L2', say: function(){ console.log('Hi, Am '+this.name ); } } };
+
+a.say(); // Returns Hi, Am L1
+a.l2.say(); // Returns Hi, Am L2
+
+```
 
 # Loop a Object using Javascript
 ```
