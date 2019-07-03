@@ -41,3 +41,12 @@ An algorithm is a procedure(logic) having well defined steps for solving a parti
 - sort
 - search
 - delete
+
+# Operations on data structure
+- Traversing
+- Insertion
+- Deletion
+- Updation
+- Searching
+- Sorting
+- Merging
