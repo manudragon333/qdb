@@ -1,5 +1,5 @@
 
-# Whats is the output of the below code.?? (Uses closures concept)
+# What is the output of the below code.?? (Uses closures concept)
 
 ```
 const arr = [10, 12, 15, 21];
