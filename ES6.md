@@ -14,6 +14,10 @@ https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declarat
 * for..in returns a list of keys on the object being iterated
 * for..of returns a list of values of the numeric properties of the object being iterated.
 
+in >> iterates over Array Index/Object Keys ; iterates Object, Array
+of >> iterates over Array values ; iterates Array Only
+foreach >> iterates over Array keys, values ; iterates Array Only
+
 # Differences between normal function and arrow function.
 
 
