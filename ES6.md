@@ -7,6 +7,24 @@ Arrow functions don't have their own this or arguments binding.  Instead, these(
 
 https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
 
+# All about arrow function.
+- Basic Definitions
+  ```
+  let myFunc = () => {} // Empty Arrow function basic minimum syntax
+  let myFunc2 = (a,b) => a+b; // Function returns without a return statement and {} needed only for multi statement.
+  let myFunc3 = () => ({ foo: 'bar' }); // Use () to wrap obbject return; else foo: will be considered as label and 'bar' is unassigned / not returned; thereby funciton returns undefined;
+  let myFunc4 = ({a,b}) => {
+    return [a,b];
+  }; // DESTRUCTURING: above paramemers are split into 2 arguments a,b as we pass a object while calling the funciton.
+  myFunc4({'c','d'});
+  // DESTRUCTURING: With Array;
+  let myFunc5 = ([key,value]) => ({ [key]: value });
+  myFunc5(['c','d']);
+  
+  
+  
+  ```
+
 # Differences between foreach, for..in and for..of (ES6)
 
 * for..in loops over enumerable property names of an object / operates on any object. it serves as a way to inspect properties on this object.
@@ -17,8 +35,6 @@ https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declarat
 in >> iterates over Array Index/Object Keys ; iterates Object, Array
 of >> iterates over Array values ; iterates Array Only
 foreach >> iterates over Array keys, values ; iterates Array Only
-
-# Differences between normal function and arrow function.
 
 
 # Callbacks and Promises
