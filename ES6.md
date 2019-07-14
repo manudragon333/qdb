@@ -13,10 +13,10 @@ https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declarat
   let myFunc = () => {} // Empty Arrow function basic minimum syntax
   let myFunc2 = (a,b) => a+b; // Function returns without a return statement and {} needed only for multi statement.
   let myFunc3 = () => ({ foo: 'bar' }); // Use () to wrap obbject return; else foo: will be considered as label and 'bar' is unassigned / not returned; thereby funciton returns undefined;
-  let myFunc4 = ({a,b}) => {
+  let myFunc4 = ({a, b}) => {
     return [a,b];
   }; // DESTRUCTURING: above paramemers are split into 2 arguments a,b as we pass a object while calling the funciton.
-  myFunc4({'c','d'});
+  myFunc4({'a': 1, 'b':2});
   // DESTRUCTURING: With Array;
   let myFunc5 = ([key,value]) => ({ [key]: value });
   myFunc5(['c','d']);
