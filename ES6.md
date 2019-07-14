@@ -21,8 +21,17 @@ https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declarat
   let myFunc5 = ([key,value]) => ({ [key]: value });
   myFunc5(['c','d']);
   
+  // DEFAULT PARAMS
+  const createUser = ({
+    userName = 'Anonymous',
+    avatar = 'anon.png'
+  } = {}) => ({
+    userName,
+    avatar
+  }); // = {} in params is because you can’t try to access properties from undefined and default to {} if no param passed.
   
-  
+  createUser(); // Returns: { userName: "Anonymous", avatar: 'anon.png' }
+  createUser({ userName: 'MMJ' }); // Returns:  { userName: "MMJ", avatar: 'anon.png' }
   ```
 
 # Differences between foreach, for..in and for..of (ES6)
