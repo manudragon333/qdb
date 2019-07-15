@@ -6,4 +6,10 @@ JavaScript uses special functions called constructor functions to define and ini
 
 # Factory Functions in JavaScript?
 
-# 
+# Find prototype of object
+```
+Object.getPrototypeOf(obj);
+obj.prototype;
+
+
+```
