@@ -136,7 +136,7 @@ https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 # What is this in JavaScript
 - `this` is equal to the object the code is inside.
-- In a prototype function/method it points to the object instance.
+- Inside a prototype function/method it points to the object instance.
 
 By default it refers to window object if it is not called inside any object block.
 ```
