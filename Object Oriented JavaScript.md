@@ -13,3 +13,11 @@ obj.prototype;
 
 
 ```
+
+# Find constructor of object
+```
+obj.constructor; // OR : obj.constructor.name;
+
+```
+
+
