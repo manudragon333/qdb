@@ -104,9 +104,15 @@ var unboundGetX = module.getX;
 console.log(unboundGetX()); // The function gets invoked at the global scope
 // expected output: undefined
 
+unboundGetX.call(module); // Outputs 42 as well; Here, we are calling the unboundGetX providing a this poinitng to module.
+
 var boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
-// expected output: 42
+// expected output: 42; Bind returns a new function with its this scoped to module.
+
+
+
+
 
 ```
 
