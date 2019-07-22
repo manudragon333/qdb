@@ -140,7 +140,15 @@ https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 By default it refers to window object if it is not called inside any object block.
 ```
-let a={ name: 'L1', say: function(){ console.log('Hi, Am '+this.name ); } , l2: { name: 'L2', say: function(){ console.log('Hi, Am '+this.name ); } } };
+let { 
+    name: 'L1', 
+    say: function(){ console.log('Hi, Am '+this.name ); this.l2.say.call(this); } ,
+	
+    l2: { 
+        name: 'L2', 
+        say: function(){ console.log('Hi, Am '+this.name ); } 
+    } 
+};
 
 a.say(); // Returns Hi, Am L1
 a.l2.say(); // Returns Hi, Am L2
