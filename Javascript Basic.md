@@ -111,8 +111,12 @@ console.log(boundGetX());
 // expected output: 42; Bind returns a new function with its this scoped to module.
 
 
-
-
+// Create Own bind function ::
+function bindMe(fn, _this){
+	return function(){ return fn.call(_this); }
+}
+var modBindNew = bindme(modX, {x:'MMJ'});
+modBindNew(); // Outputs "MMJ";
 
 ```
 
