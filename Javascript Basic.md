@@ -51,6 +51,14 @@ object2.property1 = 33;
 // Throws an error in strict mode; object2.property1 still remains 42
 ```
 
+# Object.seal()
+The Object.seal() method seals an object by: 
+- Preventing new properties from being added to it and marking all existing properties as non-configurable. 
+- Values of present properties can still be changed as long as they are writable. 
+- Existing Properties cannot be deleted.
+
+
+
 # What are primitive elements
 A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015).
 
