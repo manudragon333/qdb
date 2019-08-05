@@ -22,3 +22,7 @@
 - Questions on this
 - Browser Object Model
 - 
+
+## Angular Topics
+- TypeScript 
+- 
