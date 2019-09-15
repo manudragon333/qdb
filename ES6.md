@@ -52,21 +52,23 @@ TAG LINE: in keys ; of values
 ```
 var obj = { first: "John", last: "Doe" };
 
-Object.keys(obj).forEach(function(key) {
-    console.log(key, obj[key]);
-});
-
-// OR ES 6 WAY:
-for (const key of Object.keys(obj)) {
-    console.log(key, obj[key]);
-}
-
-// OR ES 5 WAY:
+// IN / ES 5 WAY:
 for (var prop in obj) {
     if (obj.hasOwnProperty(prop)) {
         //Do your logic with the property here
     }
 }
+
+// OF / ES 6 WAY:
+for (const key of Object.keys(obj)) {
+    console.log(key, obj[key]);
+}
+
+// forEach
+Object.keys(obj).forEach(function(key) {
+    console.log(key, obj[key]);
+});
+
 ```
 
 # Callbacks and Promises
