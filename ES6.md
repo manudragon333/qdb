@@ -42,9 +42,32 @@ https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declarat
 * for..of returns a list of values of the numeric properties of the object being iterated.
 
 in >> iterates over Array Index/Object Keys ; iterates Object, Array
+
 of >> iterates over Array values ; iterates Array Only
+
 foreach >> iterates over Array keys, values ; iterates Array Only
 
+TAG LINE: in keys ; of values
+
+```
+var obj = { first: "John", last: "Doe" };
+
+Object.keys(obj).forEach(function(key) {
+    console.log(key, obj[key]);
+});
+
+// OR ES 6 WAY:
+for (const key of Object.keys(obj)) {
+    console.log(key, obj[key]);
+}
+
+// OR ES 5 WAY:
+for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+        //Do your logic with the property here
+    }
+}
+```
 
 # Callbacks and Promises
 
