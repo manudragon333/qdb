@@ -7,3 +7,11 @@
 # Merge two binary search tree
 
 # Avl binary search tree
+
+# IF a project given to you, which one you choose among Angular vs React. If you select one why?
+
+# Merge to objects programatically instead of using internal functions
+
+# What is the best sorting algorithm
+
+# Write a navigation bar end to end (HTML, CSS with ajax calls)
