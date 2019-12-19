@@ -23,6 +23,12 @@
 - Browser Object Model
 - 
 
+## Patterns
+- PUSUB Pattern
+- Observable Pattern
+- Singleton & Factoy Pattern
+- 
+
 ## Angular Topics
 - TypeScript 
 - 
