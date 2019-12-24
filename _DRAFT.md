@@ -53,3 +53,26 @@
 - design pattern for redux
 - use react state(design question)
 
+## HTML
+- Doctype
+- 
+
+D1:
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/tags/default.asp
+https://www.w3schools.com/cssref/default.asp
+CSS Flex Design
+
+D2:
+https://www.w3schools.com/jsref/default.asp
+https://javascript.info/
+https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
+
+D3,4:
+https://angular.io/start
+
+D5,6:
+https://reactjs.org/tutorial/tutorial.html
+
+
+
