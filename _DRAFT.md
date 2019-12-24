@@ -72,7 +72,7 @@
   - https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
 
 - D3,4:
-  -https://angular.io/start
+  - https://angular.io/start
 
 - D5,6:
   - https://reactjs.org/tutorial/tutorial.html
