@@ -1,4 +1,4 @@
-# Draft the topics to be covered in this file.
+# Draft the topics to be covered
 
 
 - Web workers, Service Workers
@@ -32,3 +32,24 @@
 ## Angular Topics
 - TypeScript 
 - 
+
+
+## JavaScript
+- Security in Javascript
+- Accessibility
+- CSS Specificity
+- display and position property css
+- media query(To support all the devices)
+- without media query(support all the devices)
+- for new project/existing how will design and performance.
+- Generator function(ES6)
+- Prototype
+- Closure
+- Difference between Object literal and Object created using Object.create
+- design related question(Apply active style for active tab in multiple tab)
+
+## React
+- Preload react store
+- design pattern for redux
+- use react state(design question)
+
