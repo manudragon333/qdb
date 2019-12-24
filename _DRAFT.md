@@ -47,6 +47,15 @@
 - Closure
 - Difference between Object literal and Object created using Object.create
 - design related question(Apply active style for active tab in multiple tab)
+- Event Loop
+- implement method to search all the span elements with class “find” from the dom.
+
+
+design question:
+design and implement components for rating(5 stars)
+3 should be red and 2 should be default(for 3 rating)
+4 should be blue and 1 should be default(for 4 rating)
+5 should be green (for 5 rating)
 
 ## React
 - Preload react store
