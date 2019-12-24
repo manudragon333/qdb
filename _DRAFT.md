@@ -61,10 +61,10 @@
 
 ## TODO
 - D1:
--- https://www.w3schools.com/html/default.asp
--- https://www.w3schools.com/tags/default.asp
--- https://www.w3schools.com/cssref/default.asp
--- CSS Flex Design
+  - https://www.w3schools.com/html/default.asp
+  - https://www.w3schools.com/tags/default.asp
+  - https://www.w3schools.com/cssref/default.asp
+  - CSS Flex Design
 
 - D2:
 https://www.w3schools.com/jsref/default.asp
