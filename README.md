@@ -1,4 +1,22 @@
+# Whats this about.
+This is to collect all the topics / interview questions related to the Web development ( Vanilla JS, Angular, React etc etc) and provide one-liner answers to the most topics/interview questions.
+
+# Format for creating the content.
+- Question
+- One-liner answer
+- More explaination (if required)
+- Stackblitz link for a practical example and use cases.
+- Any blog/stackoverflow etc etc reference that has concrete information 
+
+# Want to dump questions quickly and answer later on ?
+- Use the __DRAFT.md_ to dump questions quickly and address them later.
+
 # Topics to cover
+
+Each .md file is broad topic classification. Put content appropriately :) .
+
+
+# Topics Pending to cover
 ## JavaScript
 - JavaScript Basics
 - Object Oriented JavaScript
