@@ -11,11 +11,6 @@ Semantic markup requires the separation of content and presentation.
 * Media type tags: audio, video, picture
 * Correlation tags: ul/ol, address (Tags which tell how other related elements should behave)
 
-
-Read more: https://html.com/semantic-markup/#ixzz6INpYV1NJ
-
-Read more: https://html.com/semantic-markup/#ixzz6INoEu035
-
 # List HTML 5 New features
 
 # Advantages of HTML 5 over 4
