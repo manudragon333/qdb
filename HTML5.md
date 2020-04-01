@@ -6,13 +6,10 @@ Semantic tags are used conveys some information about the type of content contai
 Semantic markup requires that HTML elements be used according to their intended purpose.
 Semantic markup requires the separation of content and presentation.
 
-Document structure tags: header, footer, main, nav, section, aside, atricle.
-
-Textual meaning tags: em, h1-h6, strong, cite, blockquote
-
-Media type tags: audio, video, picture
-
-Correlation tags: ul/ol, address (Tags which tell how other related elements should behave)
+* Document structure tags: header, footer, main, nav, section, aside, atricle.
+* Textual meaning tags: em, h1-h6, strong, cite, blockquote
+* Media type tags: audio, video, picture
+* Correlation tags: ul/ol, address (Tags which tell how other related elements should behave)
 
 
 Read more: https://html.com/semantic-markup/#ixzz6INpYV1NJ
@@ -32,3 +29,4 @@ Read more: https://html.com/semantic-markup/#ixzz6INoEu035
 # When will you use cookies and when localstorage.?
 
 # 
+ 
