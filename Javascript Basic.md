@@ -1,3 +1,45 @@
+
+# What is prototype
+# What is Prototypal inheritance
+# What is Constructor function
+# What are Built-in JavaScript Constructors
+
+```
+var x1 = new Object();    // A new Object object
+var x2 = new String();    // A new String object
+var x3 = new Number();    // A new Number object
+var x4 = new Boolean();   // A new Boolean object
+var x5 = new Array();     // A new Array object
+var x6 = new RegExp();    // A new RegExp object
+var x7 = new Function();  // A new Function object
+var x8 = new Date();      // A new Date object
+```
+NOTE: The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
+
+
+# What is Class inheritance
+# What are javasscript Objects
+# What is prototype inheritance
+# What is a Closure
+# What are JavaScript Functions 
+# What are JavaScript DataTypes
+# What is a Arrow Function
+# What is a Promise
+# What is Promises chaining
+# What is async and await
+# What are Generators in ES6
+# What is Javascript Mutation and Pure Functions
+# What are Polyfills
+# What are Modules in JavaScript
+# What is Event Bubbling, Event Capturing, Event Delegation.
+
+# List of Array functions - map, reduce, filter etc....
+
+https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+# List of Object functions - 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods
+
 # Define Closure
 A closure is the combination of a function and the lexical environment within which that function was declared.  This environment consists of any local variables that were in-scope at the time the closure was created.
 OR
@@ -138,13 +180,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 3	The request is in process
 4	The request is complete
 ```
-
-# Array functions - map, reduce, filter etc....
-
-https://www.w3schools.com/jsref/jsref_obj_array.asp
-
-# Object functions - 
-
 
 # Exception Handling (try, catch, finally, throw)
 
@@ -312,8 +347,6 @@ Object.keys(obj).forEach(function(key) {
 });
 
 ```
-
-# Callbacks and Promises
 
 # ES 7 New Features
 https://derickbailey.com/2017/06/06/3-features-of-es7-and-beyond-that-you-should-be-using-now/
