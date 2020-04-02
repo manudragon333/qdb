@@ -4,6 +4,9 @@
 
 > (OR) Objects can have a prototype object, which acts as a template object, from which it inherits methods and properties.
 
+# What is Constructor function
+> 
+
 # What is prototype chain
 > An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain.
 
@@ -18,7 +21,6 @@
 
 https://jsbin.com/jekihar/4/edit?js,console
 
-# What is Constructor function
 
 # What’s the Difference Between Class & Prototypal Inheritance?
 
@@ -60,6 +62,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 # What are JavaScript Functions 
 # What are JavaScript DataTypes
+* Primitives — Strings, Numbers, Booleans, Undefined, and Null.
+* Objects — Arrays, Functions, Dates
+
 # What is a Arrow Function
 # What is a Promise
 # What is Promises chaining
@@ -76,6 +81,12 @@ https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 # List of Object functions - 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods
+
+
+# What are primitive elements
+A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015).
+
+All primitives are immutable, i.e., they cannot be altered. The variable may be reassigned a new value(a new memory reference is created, unlike mutable objects where memory reference is passed on), but the existing value can not be changed in the ways that objects, arrays, and functions can be altered(Coz memory reference is passed on).
 
 # Define Mutable - immutable 
 A mutable object is an object whose state can be modified after it is created.
@@ -116,13 +127,6 @@ The Object.seal() method seals an object by:
 - Preventing new properties from being added to it and marking all existing properties as non-configurable. 
 - Values of present properties can still be changed as long as they are writable. 
 - Existing Properties cannot be deleted.
-
-
-
-# What are primitive elements
-A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015).
-
-All primitives are immutable, i.e., they cannot be altered. The variable may be reassigned a new value(a new memory reference is created, unlike mutable objects where memory reference is passed on), but the existing value can not be changed in the ways that objects, arrays, and functions can be altered(Coz memory reference is passed on).
 
 # Self invoking function / IIFE (Immediately Invoked Function Expression)
 A self-invoking expression is invoked right after its created/ is defined. This is basically used for avoiding naming conflict as well as for achieving encapsulation. The variables or declared objects are not accessible outside this function.
