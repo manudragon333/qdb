@@ -1,5 +1,15 @@
 
 # What is prototype
+* Prototypes are the mechanism by which JavaScript objects inherit methods and properties from one another.
+* (OR) Objects can have a prototype object, which acts as a template object, from which it inherits methods and properties.
+
+# What is prototype chain
+* An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain.
+
+# What is prototype and __proto__(Or Object.getPrototypeOf(obj))
+* `__proto__` is the property on each instance, and `prototype` is the property on the constructor.
+* Object.getPrototypeOf(new Foobar()) refers to the same object as Foobar.prototype.
+
 # What is Prototypal inheritance
 # What is Constructor function
 # What are Built-in JavaScript Constructors
@@ -19,7 +29,6 @@ NOTE: The Math() object is not in the list. Math is a global object. The new key
 
 # What is Class inheritance
 # What are javasscript Objects
-# What is prototype inheritance
 # What is a Closure
 # What are JavaScript Functions 
 # What are JavaScript DataTypes
