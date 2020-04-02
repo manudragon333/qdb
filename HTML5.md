@@ -36,17 +36,17 @@ Doctype is an instruction to the web browser about what version of HTML the page
 <!DOCTYPE html>
 ```
 * HTML 4 Strict
-- Does NOT INCLUDE presentational or deprecated elements (like font). Framesets are not allowed.
+  * Does NOT INCLUDE presentational or deprecated elements (like font). Framesets are not allowed.
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 * HTML 4 Transitional
-INCLUDING presentational and deprecated elements (like font). Framesets are not allowed.
+  * INCLUDING presentational and deprecated elements (like font). Framesets are not allowed.
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 * HTML 4 Frameset
-Equal to Transitional, but allows the use of frameset content.
+  * Equal to Transitional, but allows the use of frameset content.
 ```
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 ```
