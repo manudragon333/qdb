@@ -9,10 +9,21 @@
 
 # What is prototype and __proto__(Or Object.getPrototypeOf(obj))
 > `__proto__` is the property on each instance, and `prototype` is the property on the constructor.
-* Object.getPrototypeOf(new Foobar()) refers to the same object as Foobar.prototype.
+* `Object.getPrototypeOf(new Foobar()) / __proto__` refers to the same object as `Foobar.prototype`.
 
-# What is Prototypal inheritance
+# What is Differential Inheritance
+> Methods and properties are not copied from one object to another in the prototype chain. They are accessed by walking up the chain.
+
+> (OR) When JS comes across a method call, it first looks for object property/method, if not found, it will look up to the parent prototype, and all the way up the proptotype chain untill it finds it. 
+
+https://jsbin.com/jekihar/4/edit?js,console
+
 # What is Constructor function
+
+# What’s the Difference Between Class & Prototypal Inheritance?
+
+https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+
 # What are Built-in JavaScript Constructors
 
 ```
