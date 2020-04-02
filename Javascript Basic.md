@@ -1,6 +1,7 @@
 
 # What is prototype
 > Prototypes are the mechanism by which JavaScript objects inherit methods and properties from one another.
+
 > (OR) Objects can have a prototype object, which acts as a template object, from which it inherits methods and properties.
 
 # What is prototype chain
