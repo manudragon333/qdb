@@ -25,12 +25,28 @@ var x6 = new RegExp();    // A new RegExp object
 var x7 = new Function();  // A new Function object
 var x8 = new Date();      // A new Date object
 ```
-NOTE: The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
+* NOTE: The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
 
 
 # What is Class inheritance
 # What are javasscript Objects
 # What is a Closure
+> A closure is the combination of a function and the lexical environment within which that function was declared.  This environment consists of any local variables that were in-scope at the time the closure was created.
+
+```
+function makeFunc() {
+  var name = 'Mozilla';
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
+
+var myFunc = makeFunc();
+myFunc();
+```
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
 # What are JavaScript Functions 
 # What are JavaScript DataTypes
 # What is a Arrow Function
@@ -49,25 +65,6 @@ https://www.w3schools.com/jsref/jsref_obj_array.asp
 
 # List of Object functions - 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods
-
-# Define Closure
-A closure is the combination of a function and the lexical environment within which that function was declared.  This environment consists of any local variables that were in-scope at the time the closure was created.
-OR
-
-
-```
-function makeFunc() {
-  var name = 'Mozilla';
-  function displayName() {
-    alert(name);
-  }
-  return displayName;
-}
-
-var myFunc = makeFunc();
-myFunc();
-```
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 # Define Mutable - immutable 
 A mutable object is an object whose state can be modified after it is created.
