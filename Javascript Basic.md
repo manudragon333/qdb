@@ -364,8 +364,8 @@ for (const key of Object.keys(obj)) {
 }
 
 // forEach
-Object.keys(obj).forEach(function(key) {
-    console.log(key, obj[key]);
+Object.keys(obj).forEach(function(arrValue, arrKey) {
+    console.log(arrValue, obj[arrValue]);
 });
 
 ```
