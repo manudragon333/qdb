@@ -73,6 +73,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 # What is Javascript Mutation and Pure Functions
 # What are Polyfills
 # What are Modules in JavaScript
+> A module usually contains a class or a library of functions. Generally these are placed in a single js file and exported.
+
 # What is Event Bubbling, Event Capturing, Event Delegation.
 
 # List of Array functions - map, reduce, filter etc....
