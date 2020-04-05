@@ -1,3 +1,8 @@
+# What are async vs defer attributes in Javascript
+> These are attributes to the script tag and determine the loading and execution of the javascript.
+* Without async/defer: Page load parsing untill script tag found > Script tag found|Starts fetching > After fetching completes, Execution starts > After Execution completes, rest of page parsing continues
+* With Async: Page parsing > Script tag found and fetching starts with parsing continuing in parllel > Fetching Complete|Parsing Stops|Execution Starts > Execution completes|Parsing Continues 
+* With defer: Parsing continues untill end without break. Fetching is done in parllel when script tag found. Execution is done at the end of parsing.
 
 # What is prototype
 > Prototypes are the mechanism by which JavaScript objects inherit methods and properties from one another.
