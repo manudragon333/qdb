@@ -36,11 +36,12 @@ https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-goo
 > https://jsbin.com/luparaz/edit?js,console
 
 # Find the best alogorithm / less complexity solution for below.
-> I have a array `var arr = [5,6,7,1,2,3,4];` which is sorted but is rotated. I need to find the least number in the array.
+> I have a array `var arr = [5,6,7,1,2,3,4];` which is sorted but is rotated. I need to find the least number in the array (With Least Complexity).
 
+> https://jsbin.com/xatotas/edit?js,console
 
 # Find the output of the code.
-https://jsbin.com/wadayi/edit?js,console,output
+> https://jsbin.com/wadayi/edit?js,console,output
 
 
 # TODO List Scenario Questions
