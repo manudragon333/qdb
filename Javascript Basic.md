@@ -4,7 +4,7 @@
 * With Async: Page parsing > Script tag found and fetching starts with parsing continuing in parllel > Fetching Complete|Parsing Stops|Execution Starts > Execution completes|Parsing Continues 
 * With defer: Parsing continues untill end without break. Fetching is done in parllel when script tag found. Execution is done at the end of parsing.
 
-[VIEW VISUAL](./images/script_tag_async_defer.png){:target="_blank"}
+[VIEW VISUAL](./images/script_tag_async_defer.png)
 
 # What is prototype
 > Prototypes are the mechanism by which JavaScript objects inherit methods and properties from one another.
