@@ -102,6 +102,9 @@ user_id | completed | completed
 
     -- X --
 
+# Design a Elevator
+https://jsbin.com/sagurun/1/edit?html,js,console,output
+
 
 
 
